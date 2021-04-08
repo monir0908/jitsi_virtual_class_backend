@@ -8610,11 +8610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MONIR-DOTNET-CORE-PROJECTS\\signalR_dotnet_core_101\\Commander.csproj",
+      "projectUniqueName": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
       "projectName": "Commander",
-      "projectPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\signalR_dotnet_core_101\\Commander.csproj",
+      "projectPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\signalR_dotnet_core_101\\obj\\",
+      "outputPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

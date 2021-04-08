@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQ+ujXaZ1a58CRt3j5FlrJnJAo8152Zy/uIRrXpUc34Q6AlsXT1b/gXvYfar03+H3shh5qOFshboDar1q/qGfQ==",
+  "dgSpecHash": "4UqUsI0D6YJiLzPooQi9Kcv2WjVK++4CtHd7oUbvspRpJjM7ilqFzcGEvGeWxBtbqIllik7vNo8A6ec5uwtdwA==",
   "success": true,
-  "projectFilePath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\signalR_dotnet_core_101\\Commander.csproj",
+  "projectFilePath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
