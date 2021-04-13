@@ -24,7 +24,7 @@ namespace Commander
         public void GetDataFromClient(string userId, string connectionId)
         {
             
-            Clients.Client(connectionId).SendAsync("clientMethodName", $"Updated userid {userId}");
+            Clients.Client(connectionId).SendAsync("clientMethodName", $"Updated userid {userId} and connection id {connectionId}");
         }
         // public void ABCMethodCallableFromClient(string hostId, string participantId, string roomId, string connectionId)
         // {
@@ -34,7 +34,16 @@ namespace Commander
         public void ABCMethodCallableFromClient(string hostId, string connectionId)
         {
             Clients.Client(connectionId).SendAsync("XYZMethodTobeListenedTo", $"Updated HOSTID is :  {hostId}");
+            
         }
+
+        public void Interruption(string roomId)
+        {
+            Clients.All.SendAsync("InterruptionFromHost", roomId);
+            
+        }
+
+        
 
         
         public override Task OnConnectedAsync()
@@ -119,11 +128,13 @@ namespace Commander
                         Console.WriteLine("3. Invitation list removed.");
 
                         // Alerting Host that connection is lost
-                        _notificationHubContext.Clients.All.SendAsync("LetHostKnowClassEnded", vClassDetailObj.HostId); //this is needed if multiple browsers opened
-                        Console.WriteLine("4. Alerting Host that class has ended. It is needed in case Host has multiple tabs opened.");
+                        _notificationHubContext.Clients.All.SendAsync("LetHostKnowConnectionLost", vClassDetailObj.HostId); //this is needed if multiple browsers opened
+                        Console.WriteLine("4. Alerting Host that class has ended.");
+
+                        
 
                         // Alerting Participants that connection is lost
-                        Console.WriteLine("5. Alerting (" + invitees.Count + ") invitee that connection has lost so that invite's browsers can be updated too.");
+                        Console.WriteLine("5. Alerting (" + invitees.Count + ") invitee(s) that connection has lost so that invite's browsers can be updated too.");
                         foreach (var item in invitees)
                         {           
                             

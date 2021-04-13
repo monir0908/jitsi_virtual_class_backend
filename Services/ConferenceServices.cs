@@ -455,7 +455,7 @@ namespace Commander.Services{
                 return new
                 {
                     Success = false,
-                    Message = "No on-going class found !"
+                    Message = "Class automatically ended due to internet connection failure. You can start a new class !"
                 };         
 
             }

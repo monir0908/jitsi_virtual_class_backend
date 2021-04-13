@@ -182,7 +182,6 @@ C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\Swash
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Runtime.Caching.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\Itenso.TimePeriod.dll
@@ -214,3 +213,4 @@ C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\obj\Debug\net5.0\Comma
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\obj\Debug\net5.0\ref\Commander.dll
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\obj\Debug\net5.0\Commander.pdb
 C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\obj\Debug\net5.0\Commander.genruntimeconfig.cache
+C:\MONIR-DOTNET-CORE-PROJECTS\jitsi_virtual_class_backend\bin\Debug\net5.0\System.Net.WebSockets.WebSocketProtocol.dll

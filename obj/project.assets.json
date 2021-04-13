@@ -3163,10 +3163,10 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Microsoft.AspNetCore.SignalR.Core.1.1.0.nupkg.sha512",
+        "Microsoft.AspNetCore.SignalR.Core.nuspec",
         "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Core.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Core.xml",
-        "microsoft.aspnetcore.signalr.core.1.1.0.nupkg.sha512",
-        "microsoft.aspnetcore.signalr.core.nuspec"
+        "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Core.xml"
       ]
     },
     "Microsoft.AspNetCore.SignalR.Protocols.Json/1.1.0": {
@@ -8610,11 +8610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
+      "projectUniqueName": "c:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
       "projectName": "Commander",
-      "projectPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
+      "projectPath": "c:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\Commander.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\obj\\",
+      "outputPath": "c:\\MONIR-DOTNET-CORE-PROJECTS\\jitsi_virtual_class_backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

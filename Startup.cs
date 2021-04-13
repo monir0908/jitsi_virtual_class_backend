@@ -79,7 +79,9 @@ namespace Commander
                     ValidIssuer = Configuration["JWT:ValidIssuer"],  
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))  
                 };  
-            }); 
+            });
+            
+             
                 
 
             services.AddMvc()
@@ -93,7 +95,12 @@ namespace Commander
             ;
 
             
-            services.AddSignalR();
+            // services.AddSignalR();
+            services.AddSignalR(hubOptions =>
+            {
+                hubOptions.EnableDetailedErrors = true;
+                hubOptions.KeepAliveInterval = null;
+            });
 
 
             services.AddCors(option =>
